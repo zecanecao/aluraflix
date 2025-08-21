@@ -1,22 +1,23 @@
 body {
-    color: white;
-    background: rgba(7, 0, 8, 1);
+    color:bisque;
+    background: rgb(7, 7, 7);
     margin: 0px;
 }
 
 header {
-    border-bottom: solid 5px rgba(104, 4, 4, 1);
-    padding: 15px;
+    border-bottom: solid 6px rgba(106, 7, 7, 0.82);
+    padding: 20px;
     font-size: 40px;
-    color:rgb(225, 222, 223);
+    color:bisque;
 }
 
 section {
-    background: rgba(10, 49, 16, 1);
+    background: rgb(8, 8, 8);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
+    color:bisque;
 }
 
 .chamada-texto {
