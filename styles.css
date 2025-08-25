@@ -1,14 +1,15 @@
 body {
-    color:bisque;
+    color: bisque;
     background: rgb(7, 7, 7);
     margin: 0px;
+    font-family: "Montagu Slab", serif;
 }
 
 header {
     border-bottom: solid 6px rgba(106, 7, 7, 0.82);
     padding: 20px;
     font-size: 40px;
-    color:bisque;
+    color: bisque;
 }
 
 section {
@@ -17,7 +18,7 @@ section {
     padding-top: 80px;
     display: flex;
     justify-content: center;
-    color:bisque;
+    color: bisque;
 }
 
 .chamada-texto {
