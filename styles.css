@@ -1,6 +1,6 @@
 body {
     color: bisque;
-    background: rgb(7, 7, 7);
+    background: rgb(78, 7, 7);
     margin: 0px;
     font-family: "Montagu Slab", serif;
 }
@@ -15,7 +15,7 @@ header {
 }
 
 .chamada {
-    background: rgb(40, 2, 2);
+    background: rgb(7, 0, 0);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -28,24 +28,29 @@ header {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 p {
-    font-size: 15px;
-}
-
-img {
-    height: 300px;
+    font-size: 20px;
 }
 
 .categoria-videos {
     display:flex;
     overflow-x: auto;
-    gap: 10px;
+    gap: 25px;
 }
 
 .categoria{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 45px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+      opacity: 1.0;
 }
