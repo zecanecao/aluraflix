@@ -1,17 +1,17 @@
 body {
-    color: bisque;
-    background: rgb(78, 7, 7);
+    color: rgb(242, 214, 179);
+    background: rgb(69, 2, 2);
     margin: 0px;
     font-family: "Montagu Slab", serif;
 }
 
 header {
-    border-bottom: solid 7px rgba(221, 135, 54, 0.82);
+    border-bottom: solid 7px rgba(242, 220, 161, 0.82);
     padding: 20px;
     text-align: center;
     font-size: 50px;
     font-weight: bolder;
-    color: bisque;
+    color: rgb(240, 205, 162);
 }
 
 .chamada {
@@ -20,7 +20,7 @@ header {
     padding-top: 80px;
     display: flex;
     justify-content: center;
-    color: bisque;
+    color: rgb(239, 212, 179);
 }
 
 .chamada-texto {
@@ -47,10 +47,11 @@ p {
 }
 
 .categoria-videos img{
-    opacity: 0.5;
+    opacity: 0.6;
     height: 200px;
 }
 
 .categoria-videos img:hover{
       opacity: 1.0;
+      border: 8px solid rgb(33, 7, 3)
 }
